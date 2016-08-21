@@ -29,7 +29,8 @@ public class RunServer {
     	frame=new JFrame("Enter the IP of the host computer");
 	    panel =new JPanel();
 	    ipInput=new JTextField();
-	    ipInput.setText("161.23.166.76");
+	    //Used for quick testing.
+	    //ipInput.setText("161.23.166.76");
 	    connect=new JButton("Connect");
 	    
 	    panel.setLayout(new GridLayout(1,0,5,5)); 
@@ -68,7 +69,7 @@ public class RunServer {
         //Needed for key listener.
         frame.setFocusable(true);
 	    frame.setContentPane(panel);
-	    frame.setSize(300,50);
+	    frame.setSize(400,50);
 	    frame.setVisible(true); 
 	    frame.setResizable(false);
 	    frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -88,6 +89,7 @@ public class RunServer {
 				ServerInterface server =new Server();
 				//IP needs to be set the the host computer's IP. Binds server object to RMIR.
 				Naming.rebind("rmi://"+hostIP+"/myPaintChat", server);
+				JOptionPane.showMessageDialog(frame, "Server is running. Close the window to exit.");
 				System.out.println("Server is working.");
 			}catch (Exception e) {
 					System.out.println("Error 1. Class RunServer: " + e);

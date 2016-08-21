@@ -33,12 +33,13 @@ public class StartClient {
     //Code from http://www.ejbtutorial.com/java-rmi/group-chat-example-using-java-rmi-with-a-graphical-user-interface
     //Creates the GUI for the login window.
     public void runLoginWindow(){
-    	frame=new JFrame("My IP is 161.23.166.76");
+    	frame=new JFrame("Input the IP of the Host");
 	    JPanel main =new JPanel();
 	    name=new JTextField();
-	    name.setText("Name");
+	    //Used for quick testing
+	    //name.setText("Name");
 	    ip=new JTextField();
-	    ip.setText("161.23.166.76");
+	    //ip.setText("161.23.166.76");
 	    connect=new JButton("Connect");
 	    
 	    main.setLayout(new GridLayout(1,0,5,5)); 
@@ -82,14 +83,19 @@ public class StartClient {
             @Override
             public void windowClosing(WindowEvent e)
             {
+            	frame.dispose();
 	  	    		try {
 	  	    			stringName = name.getText();
 						server.exitClient(client, stringName);
-					} catch (RemoteException e4) {
+					} catch (Exception e4) {
 						System.out.println("Error 16. Class StartClient: "+e4);
-					}	  
-                frame.dispose();
-                paintWindow.frame.dispose();
+					}	
+	  	    		try {
+	  	    			paintWindow.frame.dispose();
+					} catch (Exception e5) {
+						System.out.println("Error 20. Class StartClient: "+e5);
+					}	
+                
             }
         });
     }
