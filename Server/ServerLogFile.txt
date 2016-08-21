@@ -1,0 +1,598 @@
+
+ 17/08/16/ 14:29:23 Name  is connected.
+
+ 17/08/16/ 14:29:23 Name has just connected.
+
+
+ 17/08/16/ 14:29:28 Name  is connected.
+
+ 17/08/16/ 14:29:28 Name has just connected.
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 168, prevY: 147, x: 167, y: 147
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 167, prevY: 147, x: 96, y: 154
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 96, prevY: 154, x: 91, y: 161
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 91, prevY: 161, x: 88, y: 168
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 88, prevY: 168, x: 86, y: 175
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 86, prevY: 175, x: 82, y: 192
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 82, prevY: 192, x: 82, y: 203
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 82, prevY: 203, x: 82, y: 214
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 82, prevY: 214, x: 82, y: 232
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 82, prevY: 232, x: 84, y: 240
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 84, prevY: 240, x: 88, y: 248
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 88, prevY: 248, x: 98, y: 258
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 98, prevY: 258, x: 105, y: 264
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 105, prevY: 264, x: 116, y: 269
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 116, prevY: 269, x: 139, y: 274
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 139, prevY: 274, x: 156, y: 275
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 156, prevY: 275, x: 179, y: 276
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 179, prevY: 276, x: 225, y: 276
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 225, prevY: 276, x: 244, y: 276
+
+
+ 17/08/16/ 14:29:28 Drawline: prevX: 244, prevY: 276, x: 259, y: 275
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 259, prevY: 275, x: 285, y: 270
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 285, prevY: 270, x: 291, y: 267
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 291, prevY: 267, x: 294, y: 266
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 294, prevY: 266, x: 295, y: 265
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 295, prevY: 265, x: 294, y: 265
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 294, prevY: 265, x: 292, y: 265
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 292, prevY: 265, x: 288, y: 265
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 288, prevY: 265, x: 280, y: 267
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 280, prevY: 267, x: 274, y: 270
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 274, prevY: 270, x: 268, y: 274
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 268, prevY: 274, x: 259, y: 279
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 259, prevY: 279, x: 253, y: 284
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 253, prevY: 284, x: 250, y: 287
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 250, prevY: 287, x: 246, y: 293
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 246, prevY: 293, x: 245, y: 295
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 245, prevY: 295, x: 244, y: 297
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 244, prevY: 297, x: 244, y: 299
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 244, prevY: 299, x: 244, y: 300
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 244, prevY: 300, x: 244, y: 301
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 244, prevY: 301, x: 244, y: 296
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 244, prevY: 296, x: 243, y: 291
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 243, prevY: 291, x: 227, y: 269
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 227, prevY: 269, x: 216, y: 257
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 216, prevY: 257, x: 203, y: 244
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 203, prevY: 244, x: 189, y: 234
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 189, prevY: 234, x: 176, y: 225
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 176, prevY: 225, x: 165, y: 219
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 165, prevY: 219, x: 153, y: 211
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 153, prevY: 211, x: 149, y: 209
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 149, prevY: 209, x: 147, y: 207
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 147, prevY: 207, x: 146, y: 207
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 146, prevY: 207, x: 145, y: 209
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 145, prevY: 209, x: 142, y: 213
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 142, prevY: 213, x: 141, y: 218
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 141, prevY: 218, x: 137, y: 229
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 137, prevY: 229, x: 135, y: 240
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 135, prevY: 240, x: 133, y: 250
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 133, prevY: 250, x: 133, y: 263
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 133, prevY: 263, x: 133, y: 270
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 133, prevY: 270, x: 133, y: 275
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 133, prevY: 275, x: 136, y: 281
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 136, prevY: 281, x: 136, y: 283
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 136, prevY: 283, x: 139, y: 285
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 139, prevY: 285, x: 141, y: 285
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 141, prevY: 285, x: 143, y: 285
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 143, prevY: 285, x: 144, y: 285
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 144, prevY: 285, x: 145, y: 285
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 145, prevY: 285, x: 146, y: 285
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 146, prevY: 285, x: 147, y: 285
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 147, prevY: 285, x: 147, y: 284
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 147, prevY: 284, x: 148, y: 284
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 148, prevY: 284, x: 149, y: 283
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 149, prevY: 283, x: 150, y: 282
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 150, prevY: 282, x: 152, y: 281
+
+
+ 17/08/16/ 14:29:29 Drawline: prevX: 152, prevY: 281, x: 152, y: 279
+
+
+ 17/08/16/ 14:30:09 Name  is connected.
+
+ 17/08/16/ 14:30:09 Name has just connected.
+
+
+ 17/08/16/ 14:30:12 Name  is connected.
+
+ 17/08/16/ 14:30:12 Name has just connected.
+
+
+ 17/08/16/ 14:30:14 Name  is connected.
+
+ 17/08/16/ 14:30:14 Name has just connected.
+
+
+ 17/08/16/ 14:30:17 Name  is connected.
+
+ 17/08/16/ 14:30:17 Name has just connected.
+
+
+ 17/08/16/ 14:30:19 Name  is connected.
+
+ 17/08/16/ 14:30:19 Name has just connected.
+
+
+ 17/08/16/ 14:30:20 Name  is connected.
+
+ 17/08/16/ 14:30:20 Name has just connected.
+
+
+ 17/08/16/ 14:30:20 Name  is connected.
+
+ 17/08/16/ 14:30:20 Name has just connected.
+
+
+ 17/08/16/ 14:30:21 [Name] 
+
+
+ 17/08/16/ 14:30:22 Name  is connected.
+
+ 17/08/16/ 14:30:22 Name has just connected.
+
+
+ 17/08/16/ 14:30:28 Name  is connected.
+
+ 17/08/16/ 14:30:28 Name has just connected.
+
+
+ 17/08/16/ 14:30:29 Name  is connected.
+
+ 17/08/16/ 14:30:29 Name has just connected.
+
+
+ 17/08/16/ 14:30:31 Name  is connected.
+
+ 17/08/16/ 14:30:31 Name has just connected.
+
+
+ 17/08/16/ 14:30:32 Name  is connected.
+
+ 17/08/16/ 14:30:32 Name has just connected.
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 226, prevY: 80, x: 220, y: 81
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 220, prevY: 81, x: 101, y: 189
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 101, prevY: 189, x: 177, y: 189
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 177, prevY: 189, x: 221, y: 186
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 221, prevY: 186, x: 367, y: 165
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 367, prevY: 165, x: 415, y: 158
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 415, prevY: 158, x: 500, y: 143
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 500, prevY: 143, x: 508, y: 142
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 508, prevY: 142, x: 510, y: 142
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 510, prevY: 142, x: 498, y: 142
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 498, prevY: 142, x: 477, y: 144
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 477, prevY: 144, x: 440, y: 150
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 440, prevY: 150, x: 370, y: 166
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 370, prevY: 166, x: 302, y: 187
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 302, prevY: 187, x: 263, y: 204
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 263, prevY: 204, x: 240, y: 215
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 240, prevY: 215, x: 151, y: 259
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 151, prevY: 259, x: 138, y: 268
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 138, prevY: 268, x: 132, y: 271
+
+
+ 17/08/16/ 14:30:33 Drawline: prevX: 132, prevY: 271, x: 132, y: 272
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 132, prevY: 272, x: 133, y: 272
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 133, prevY: 272, x: 134, y: 272
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 134, prevY: 272, x: 137, y: 272
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 137, prevY: 272, x: 137, y: 274
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 137, prevY: 274, x: 135, y: 280
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 135, prevY: 280, x: 133, y: 287
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 133, prevY: 287, x: 127, y: 305
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 127, prevY: 305, x: 124, y: 319
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 124, prevY: 319, x: 123, y: 329
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 123, prevY: 329, x: 123, y: 336
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 123, prevY: 336, x: 126, y: 341
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 126, prevY: 341, x: 128, y: 344
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 128, prevY: 344, x: 134, y: 345
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 134, prevY: 345, x: 145, y: 345
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 145, prevY: 345, x: 150, y: 345
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 150, prevY: 345, x: 166, y: 335
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 166, prevY: 335, x: 168, y: 331
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 168, prevY: 331, x: 170, y: 327
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 170, prevY: 327, x: 174, y: 315
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 174, prevY: 315, x: 174, y: 310
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 174, prevY: 310, x: 175, y: 300
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 175, prevY: 300, x: 175, y: 297
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 175, prevY: 297, x: 175, y: 292
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 175, prevY: 292, x: 175, y: 289
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 175, prevY: 289, x: 174, y: 285
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 174, prevY: 285, x: 174, y: 284
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 174, prevY: 284, x: 174, y: 282
+
+
+ 17/08/16/ 14:30:34 Drawline: prevX: 174, prevY: 282, x: 174, y: 280
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 308, prevY: 208, x: 308, y: 207
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 308, prevY: 207, x: 293, y: 201
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 293, prevY: 201, x: 251, y: 186
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 251, prevY: 186, x: 235, y: 162
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 235, prevY: 162, x: 230, y: 139
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 230, prevY: 139, x: 227, y: 127
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 227, prevY: 127, x: 218, y: 117
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 218, prevY: 117, x: 214, y: 112
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 214, prevY: 112, x: 208, y: 110
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 208, prevY: 110, x: 197, y: 107
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 197, prevY: 107, x: 188, y: 105
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 188, prevY: 105, x: 168, y: 104
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 168, prevY: 104, x: 162, y: 104
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 162, prevY: 104, x: 159, y: 104
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 159, prevY: 104, x: 153, y: 105
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 153, prevY: 105, x: 151, y: 111
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 151, prevY: 111, x: 151, y: 114
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 151, prevY: 114, x: 155, y: 120
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 155, prevY: 120, x: 160, y: 123
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 160, prevY: 123, x: 168, y: 126
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 168, prevY: 126, x: 189, y: 129
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 189, prevY: 129, x: 206, y: 130
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 206, prevY: 130, x: 234, y: 131
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 234, prevY: 131, x: 238, y: 132
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 238, prevY: 132, x: 240, y: 133
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 240, prevY: 133, x: 240, y: 134
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 240, prevY: 134, x: 240, y: 135
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 240, prevY: 135, x: 238, y: 137
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 238, prevY: 137, x: 221, y: 143
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 221, prevY: 143, x: 210, y: 149
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 210, prevY: 149, x: 199, y: 154
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 199, prevY: 154, x: 180, y: 165
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 180, prevY: 165, x: 164, y: 177
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 164, prevY: 177, x: 157, y: 184
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 157, prevY: 184, x: 152, y: 191
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 152, prevY: 191, x: 149, y: 202
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 149, prevY: 202, x: 149, y: 216
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 149, prevY: 216, x: 155, y: 226
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 155, prevY: 226, x: 160, y: 231
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 160, prevY: 231, x: 174, y: 243
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 174, prevY: 243, x: 181, y: 248
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 181, prevY: 248, x: 184, y: 252
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 184, prevY: 252, x: 191, y: 260
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 191, prevY: 260, x: 195, y: 266
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 195, prevY: 266, x: 199, y: 274
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 199, prevY: 274, x: 200, y: 278
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 200, prevY: 278, x: 202, y: 281
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 202, prevY: 281, x: 205, y: 290
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 205, prevY: 290, x: 206, y: 292
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 206, prevY: 292, x: 206, y: 293
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 206, prevY: 293, x: 207, y: 293
+
+
+ 17/08/16/ 14:30:39 Drawline: prevX: 207, prevY: 293, x: 207, y: 294
+
