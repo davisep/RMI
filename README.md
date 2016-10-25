@@ -1,18 +1,18 @@
-About:
+## About
 
-	 This project has created an application where the users can collaboratively draw together and it is visible in real time. It has developed a GUI that includes chat and canvas functionality, implemented drawing methods in RMI, created a server log file and has the ability to let users change their colors while drawing.
+This project has created an application where the users can collaboratively draw together and it is visible in real time. It has developed a GUI that includes chat and canvas functionality, implemented drawing methods in RMI, created a server log file and has the ability to let users change their colors while drawing.
 	 
-Purpose:
+## Purpose
 
-	 There is only one open source collaborative drawing application available and it is in C++. The contribution of this project is to offer an open source program in Java so others may build on the frame work and use it a learning tool. The motivation for this project was wanting to see more advanced features in collaborative drawing applications, but the time constraints of this project did not allow for anything but the most basic features to be implemented.
+There is only one open source collaborative drawing application available and it is in C++. The contribution of this project is to offer an open source program in Java so others may build on the frame work and use it a learning tool. The motivation for this project was wanting to see more advanced features in collaborative drawing applications, but the time constraints of this project did not allow for anything but the most basic features to be implemented.
 
-Summary of code:
+##Summary of code
 
 Server side - Creates a log in GUI, users input the IP of the host computer then it creates a server object and binds it to RMIR. It receives methods sent by a client and distributes them to all the clients and records changes on the canvas in a log file.
 
 Client side – Creates a log in GUI for name and IP of host, connects to server, creates a drawing window that includes a canvas, chat box and buttons. The canvas allows drawing by sensing the mouse being pressed and dragged. In the chat box text can be typed in a text field and will be populated for all the connected clients in a text area when the client hits their ‘chat’ button. The mute button mutes or unmutes the noise hat is played when the chat box receives a new message. The other buttons on the right set the eraser or pen colors for drawing and the clear all button sends a clear all message to the server.
 
-Requirements:
+## Requirements
 
 Windows OS
 Clients are all on same LAN network
