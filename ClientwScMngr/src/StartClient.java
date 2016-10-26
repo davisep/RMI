@@ -30,7 +30,6 @@ public class StartClient {
   	 sc.runLoginWindow();
     }  
 
-    //Code from http://www.ejbtutorial.com/java-rmi/group-chat-example-using-java-rmi-with-a-graphical-user-interface
     //Creates the GUI for the login window.
     public void runLoginWindow(){
     	frame=new JFrame("Input the IP of the Host");
@@ -39,6 +38,7 @@ public class StartClient {
 	    //Used for quick testing
 	    //name.setText("Name");
 	    ip=new JTextField();
+		//For easy testing:
 	    //ip.setText("161.23.166.76");
 	    connect=new JButton("Connect");
 	    
@@ -63,7 +63,7 @@ public class StartClient {
 				}
   	    	  }
   	      }});
-	    //If the enter key is hit the window will try to connect to the server.
+	    //If the enter key is pressed the window will try to connect to the server.
         frame.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(KeyEvent evt) {
                 if(evt.getKeyCode()==KeyEvent.VK_ENTER){
@@ -100,7 +100,7 @@ public class StartClient {
         });
     }
 
-    //Code from http://www.ejbtutorial.com/java-rmi/group-chat-example-using-java-rmi-with-a-graphical-user-interface
+    //Code based on this tutorial: http://www.ejbtutorial.com/java-rmi/group-chat-example-using-java-rmi-with-a-graphical-user-interface
     //Tries to connect to the server.
     public void doConnect(){
   	    if (connect.getText().equals("Connect")){

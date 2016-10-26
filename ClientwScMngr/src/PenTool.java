@@ -46,7 +46,6 @@ public class PenTool extends JPanel implements MouseListener, MouseMotionListene
 	  		super.paintComponent(g); 
 		}
 	  	
-	  	//Code from http://stackoverflow.com/questions/37813525/multiuser-whiteboard-getting-the-server-client-to-pass-x-y-values-to-draw-a-lin
 	  	//Checks if mouse is pressed to create a line on the canvas. Sets dragging to true while mouse is pressed.
 	  	public void mousePressed(MouseEvent evt) {
 	  		int x = evt.getX(); 
@@ -61,7 +60,6 @@ public class PenTool extends JPanel implements MouseListener, MouseMotionListene
 	  		}
 	  	}
 	  	
-	  	//Code from http://stackoverflow.com/questions/37813525/multiuser-whiteboard-getting-the-server-client-to-pass-x-y-values-to-draw-a-lin
 	  	//Sets dragging to false when mouse is released.
 	     public void mouseReleased(MouseEvent evt) {
 	          if (dragging == false)
@@ -69,9 +67,8 @@ public class PenTool extends JPanel implements MouseListener, MouseMotionListene
 	          dragging = false;
 	     }
 	     
-		 //Code from http://stackoverflow.com/questions/37813525/multiuser-whiteboard-getting-the-server-client-to-pass-x-y-values-to-draw-a-lin
 		 //Records new x and y coordinates as the mouse is being dragged and sends them to the server to distribute to all the clients.
-	     //If eraser is on then it tells the server to erase, if not it tells the server to draw a line.
+	     //If the eraser tool is on then it tells the server to erase, if not it tells the server to draw a line.
 	     public void mouseDragged(MouseEvent evt) {
 	    	  if (dragging == false)
 	              return; 
@@ -96,7 +93,7 @@ public class PenTool extends JPanel implements MouseListener, MouseMotionListene
 	    public void mouseClicked(MouseEvent evt) { }  
 	    public void mouseMoved(MouseEvent evt) { }
 		
-	    //Receives line information form the server and draws it on the canvas
+	    //Receives the line information from the server and draws it on the canvas.
 		public void getLine(Color clientColor, int drawPrevX, int drawPrevY, int drawX, int drawY) {
 			clientG2d=getGraphics();
 			clientG2d.setColor(clientColor);  

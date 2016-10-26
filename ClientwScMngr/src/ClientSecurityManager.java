@@ -1,9 +1,8 @@
 import java.rmi.RMISecurityManager;
 import java.security.Permission;
 
-//Does not do anything
+//Currently does not do anything but can be used later to change permissions.
 public class ClientSecurityManager extends RMISecurityManager {
 	public void checkPermission(Permission p) {
-	// Can be use later to change permissions.
 	}
 }

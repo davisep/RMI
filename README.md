@@ -29,7 +29,7 @@ Next for the client compile ClientwScMngr/src and run StartClient or double clic
 
 The program will default to the color black for the pen tool. To draw click and drag the mouse on the canvas area and release when the line is completed. A one-pixel line will appear on all the clients. The ‘Clear’ button will clear all the clients’ canvases. The ‘Eraser’ button will draw a nine-pixel wide white line. To change the colors, the color buttons or the custom button can be used. The box above the ‘Custom’ button will show the current color. Clicking the ‘Custom’ will show the JColorPIcker. Select the desired color and then click ‘OK’ to return to the drawing window. The ‘Mute’ button will stop the noise that plays when next text appears in the chat field.
 
-## Additions that have not been added due to time constraints
+## Features that have not been added due to time constraints
 
 -	A color picker so the user can select any color.
 -	Being able to change the size of the pen tool and have different types of brushes (Ex: watercolor, paint, pen).

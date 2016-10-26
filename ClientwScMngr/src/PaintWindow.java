@@ -63,7 +63,6 @@ public class PaintWindow {
 		//Adds the canvas to the drawing panel.
     	drawPanel.add(drawBox);
     	
-    	//Layout code created with help of NetBeans software.
     	//Creates three panels and inputs the objects.
     	//There is a draw panel for drawing, a button panel on the right for the buttons and a chat panel at the bottom for the chat function.
     	GroupLayout drawPanelLayout = new GroupLayout(drawPanel);
@@ -79,8 +78,8 @@ public class PaintWindow {
     	                .addComponent(drawBox, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE)
     	                .addGap(0, 0, Short.MAX_VALUE))
         );
-    	//Below code sets the buttont texts and actions the buttons do.
-    	//The color buttons set eraser to false and change the color.
+    	//Below code sets the buttont text and the actions the buttons do.
+    	//The color buttons set the eraser tool to false and change the color.
     	blackButton.setText("Black");
     	blackButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -237,12 +236,12 @@ public class PaintWindow {
     	chatButton.setText("Chat");
 		chatButton.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent evt){
-				//Sends the text typed in the typedText bx to the server to be distributed to all the clients.
+				//Sends the text typed in the typedText box to the server to be distributed to all the clients.
 				sendText();
 			}
 		});
 		
-		//Sets he objects in the chat panel
+		//Sets the objects in the chat panel
     	GroupLayout chatLayout = new GroupLayout(chatPanel);
     	chatPanel.setLayout(chatLayout);
         chatLayout.setHorizontalGroup(
@@ -308,7 +307,7 @@ public class PaintWindow {
     	frame.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
     	frame.setResizable(false);
     	frame.setVisible(true);
-    	//Went window is closed sends exitClient command to the server to remove self from the array of users.
+    	//When window is closed sends exitClient command to the server to remove the client from the array of users.
 	    frame.addWindowListener(new WindowAdapter()
         {
             @Override
@@ -336,14 +335,14 @@ public class PaintWindow {
         DefaultCaret caret = (DefaultCaret)chatText.getCaret();
         caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
     }
-    //Code from http://www.ejbtutorial.com/java-rmi/group-chat-example-using-java-rmi-with-a-graphical-user-interface
+    //Code based on this tutorial: http://www.ejbtutorial.com/java-rmi/group-chat-example-using-java-rmi-with-a-graphical-user-interface
     //Sends the typed text to the server to be sent to all the clients
     public void sendText(){
           String chatMessage=typedText.getText();
           chatMessage="["+name+"] "+chatMessage;
           typedText.setText("");
           try{
-        	  	server.sendTextToServer(chatMessage);
+        	server.sendTextToServer(chatMessage);
       	 }catch(Exception e){
       	  	System.out.println("Error 14 Class PaintWindow: "+e);
       	 }
