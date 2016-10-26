@@ -25,11 +25,11 @@ public class RunServer {
 	}
 		
 	public void runServerWindow(){
-		//Creates the GUI
+		//Creates the GUI.
     	frame=new JFrame("Enter the IP of the host computer");
 	    panel =new JPanel();
 	    ipInput=new JTextField();
-	    //Used for quick testing.
+	    //Use for easy testing:
 	    //ipInput.setText("161.23.166.76");
 	    connect=new JButton("Connect");
 	    
@@ -80,13 +80,13 @@ public class RunServer {
 	public void connect(String hostIP){
 		try {
 				
-				//Creates new security manager. Security policy set to Grant all permissions
+				//Creates new security manager. Security policy set to Grant all permissions.
 				//Currently commented out because not needed.
 				//System.setSecurityManager(new RMISecurityManager());
 			
 				//Creates a registry and listens to port 1099
 			 	java.rmi.registry.LocateRegistry.createRegistry(1099);
-				ServerInterface server =new Server();
+				ServerInterface server = new Server();
 				//IP needs to be set the the host computer's IP. Binds server object to RMIR.
 				Naming.rebind("rmi://"+hostIP+"/myPaintChat", server);
 				JOptionPane.showMessageDialog(frame, "Server is running. Close the window to exit.");

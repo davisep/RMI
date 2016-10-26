@@ -32,7 +32,7 @@ public class Server extends UnicastRemoteObject implements ServerInterface{
     	//Creates a new log file.
 		public void newLogFile(){
 			//This sets the path for the LogFile.
-	        Path path = FileSystems.getDefault().getPath("C:/Users/Beth/RMI/Server", "ServerLogFile.txt");
+	        Path path = FileSystems.getDefault().getPath("C:/Users", "ServerLogFile.txt");
 
 	        //Deletes the log file if an old one already exists.
 	        try {
@@ -64,7 +64,6 @@ public class Server extends UnicastRemoteObject implements ServerInterface{
 			}
 		} 
   
-		//Code from http://www.ejbtutorial.com/java-rmi/group-chat-example-using-java-rmi-with-a-graphical-user-interface
 		//Notifies other user of a new client and add it to the vector. 
     	public boolean login(ClientInterface tempCI) throws RemoteException{
     		String line = tempCI.getName()+ "  is connected.";
@@ -75,7 +74,7 @@ public class Server extends UnicastRemoteObject implements ServerInterface{
     		return true;		
     	}
     	
-    	//Code from http://www.ejbtutorial.com/java-rmi/group-chat-example-using-java-rmi-with-a-graphical-user-interface
+    	//Code based on this tutorial: http://www.ejbtutorial.com/java-rmi/group-chat-example-using-java-rmi-with-a-graphical-user-interface
     	//Sends the received chat line from login to all the connected clients. (Is only used by login)
     	public void sendTextToServer(String tempS) throws RemoteException{
     		String line = tempS+"\r\n";
@@ -92,7 +91,7 @@ public class Server extends UnicastRemoteObject implements ServerInterface{
     		}
     	}
     	
-    	//Receives a chat line from one of the clients
+    	//Receives a chat line from one of the clients.
     	public void sendLineToServer(Color penColor, int prevX, int prevY, int x, int y) throws RemoteException{
     		String line = String.format("Drawline: prevX: %d, prevY: %d, x: %d, y: %d"+ '\n',  prevX, prevY, x, y);
     		writeLog(line);
@@ -108,7 +107,7 @@ public class Server extends UnicastRemoteObject implements ServerInterface{
     		}
     	}
 
-		//Is called when a client closes the window to delete their ClientInterface out of the vector. This prevent errors.
+		//Is called when a client closes the window to delete their ClientInterface out of the vector. This will prevent errors.
     	public void exitClient(ClientInterface tempCI, String name){
     		String tempS= name+" has disconnected from the server.";
     		try {
@@ -119,7 +118,7 @@ public class Server extends UnicastRemoteObject implements ServerInterface{
     		userVector.remove(tempCI);
     	}
 
-		//Sends the Clear All command to all clients
+		//Sends the Clear All command to all clients.
     	public void sendClearAllToServer() throws RemoteException{
     		writeLog("Clear all");
     		for(int i=0;i<userVector.size();i++){
@@ -134,7 +133,7 @@ public class Server extends UnicastRemoteObject implements ServerInterface{
     		}
     	}
 
-		//Get an eraser command from a client using it ad sends it to the other clients
+		//Gets an eraser command from a client using it and sends it to the other clients.
 		public void sendEraserToServer(int prevX, int prevY, int x, int y) {
 			for(int i=0;i<userVector.size();i++){
     			if (userVector.get(i) != null){

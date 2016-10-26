@@ -20,9 +20,12 @@ Client application - Creates a log in GUI for name and IP of host, connects to s
 
 ## Running the program
 
-To run the program, start by double clicking on the server .JAR file. A window will pop up asking you to input the IP of the computer hosting the server. Type this, including periods and click connect. This can also be done by running the class RunServer in the command line. If you used the command line instead of the .JAR it will tell you I the server is working and if the previous log file was deleted to create a new one. 
+To run the program, start by compiling Server/src and running RunServer or double clicking on the server .JAR file. A window will pop up asking you to input the IP of the computer hosting the server. Type this, including periods and click connect. This can also be done by running the class RunServer in the command line. If you used the command line instead of the .JAR it will tell you I the server is working and if the previous log file was deleted to create a new one. 
 
-Next for the client double click on the client .JAR or run StartClient from the command line. Type in the name to be used in the chat and the IP address of the host computer and click connect. The drawing window will appear: 
+Note: Line 35 in Server may need to be updated to match were you would like the serverlog file to save. Replace "C:/Users" with your location.
+Path path = FileSystems.getDefault().getPath("C:/Users", "ServerLogFile.txt");
+
+Next for the client compile ClientwScMngr/src and run StartClient or double click on the client .JAR. Type in the name to be used in the chat and the IP address of the host computer and click connect. The drawing window will appear.
 
 The program will default to the color black for the pen tool. To draw click and drag the mouse on the canvas area and release when the line is completed. A one-pixel line will appear on all the clients. The ‘Clear’ button will clear all the clients’ canvases. The ‘Eraser’ button will draw a nine-pixel wide white line. To change the colors, the color buttons or the custom button can be used. The box above the ‘Custom’ button will show the current color. Clicking the ‘Custom’ will show the JColorPIcker. Select the desired color and then click ‘OK’ to return to the drawing window. The ‘Mute’ button will stop the noise that plays when next text appears in the chat field.
 
