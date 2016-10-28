@@ -2,6 +2,9 @@ import java.awt.Color;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
+
+//testing
+
 public class Client extends UnicastRemoteObject implements ClientInterface{
     	
     	private String name;
